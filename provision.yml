@@ -3,9 +3,6 @@
   hosts: localhost
   gather_facts: false
   vars:
-    - region: us-east-2
-    - project_name: MrMeseeks
-    - which_subnet: subnet-abc123xyz
 
   tasks:
   - name: search for the latest rhel 7 ami
