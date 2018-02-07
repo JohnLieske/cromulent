@@ -4,6 +4,9 @@
   connection: local
   gather_facts: false
   vars:
+    - region: us-east-2
+    - project_name: mrmeseeks
+    - which_subnet: subnet-f6b1c99f
 
   tasks:
   - name: search for the latest rhel 7 ami
